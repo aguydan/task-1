@@ -1,6 +1,7 @@
 @import "../constants.css";
 
 .button {
+  color: black;
   padding: 1.6em 2em;
   font-weight: 600;
   text-transform: uppercase;

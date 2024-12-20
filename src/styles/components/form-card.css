@@ -57,6 +57,7 @@
   .form-content {
     margin-block: clamp(2rem, 5vw, 5rem);
     margin-inline: clamp(2rem, 7vw, 8rem);
+    width: 80%;
   }
 
   .form-background {

@@ -1,0 +1,22 @@
+.wrapper {
+  max-width: 1654px;
+  margin: 0 auto;
+  padding-inline: 2rem;
+}
+
+.background-wrapper {
+  background: linear-gradient(
+      90deg,
+      var(--clr-secondary-700) 0%,
+      rgba(255, 255, 255, 0) 60%
+    ),
+    url("/estate-2.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+@media (max-width: 400px) {
+  .wrapper {
+    padding-inline: 1rem;
+  }
+}

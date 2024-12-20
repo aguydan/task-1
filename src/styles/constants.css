@@ -1,0 +1,14 @@
+:root {
+  --font-primary: Prata;
+  --font-secondary: sans-serif;
+
+  --clr-primary: #ffffff;
+  --clr-secondary-300: #d6d6d6;
+  --clr-secondary-400: #55565a;
+  --clr-secondary-500: #282829;
+  --clr-secondary-700: #222222;
+  --clr-secondary-900: #000000;
+
+  --clr-accent-primary: #38535d;
+  --clr-accent-secondary: #d5c9be;
+}

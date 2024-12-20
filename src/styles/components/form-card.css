@@ -1,0 +1,66 @@
+@import "../constants.css";
+
+.form-card {
+  background-color: var(--clr-primary);
+  border-radius: 1.7rem;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  gap: 3rem;
+
+  &::after {
+    content: "";
+    position: absolute;
+    background-image: url("/agent.png");
+    background-size: contain;
+    background-position: bottom -10rem right 9%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 144%;
+    bottom: 0;
+    right: 0;
+  }
+}
+
+.form-content {
+  margin-block: clamp(2rem, 6vw, 5rem);
+  margin-left: clamp(2rem, 7vw, 8rem);
+  max-width: 50rem;
+  flex: 1 0;
+  z-index: 1000;
+}
+
+.form-background {
+  background-image: url("/agent-background.png");
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  width: 40rem;
+}
+
+@media (max-width: 1080px) {
+  .form-card {
+    text-align: center;
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+    overflow: hidden;
+
+    &::after {
+      background-position: bottom -1rem right 9%;
+      width: calc(1.25 * 15rem);
+      height: calc(1.25 * 15rem);
+      bottom: 0;
+      right: 25%;
+    }
+  }
+  .form-content {
+    margin-block: clamp(2rem, 5vw, 5rem);
+    margin-inline: clamp(2rem, 7vw, 8rem);
+  }
+
+  .form-background {
+    height: 15rem;
+    width: 100%;
+  }
+}

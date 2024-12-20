@@ -1,0 +1,25 @@
+@import "../constants.css";
+
+.header-content {
+  display: flex;
+  gap: min(13rem, 10%);
+  align-items: center;
+  padding-block: clamp(1rem, 6vw, 2rem);
+}
+
+header {
+  transition: all 0.2s;
+}
+
+header.sticky {
+  position: sticky;
+  z-index: 2000;
+  top: 0;
+  background-color: var(--clr-secondary-700);
+  box-shadow:
+    0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075),
+    0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075),
+    0 16px 16px hsl(0deg 0% 0% / 0.075);
+}

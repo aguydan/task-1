@@ -1,0 +1,27 @@
+@import "../constants.css";
+
+.checkbox {
+  padding-block: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+
+  label {
+    color: var(--clr-secondary-400);
+    font-size: clamp(0.9rem, 3vw, 1.25rem);
+  }
+
+  input {
+    cursor: pointer;
+    appearance: none;
+    width: clamp(1.1rem, 4vw, 1.6rem);
+    height: clamp(1.1rem, 4vw, 1.6rem);
+    border-radius: 0.3rem;
+    border: 2px solid var(--clr-accent-primary);
+    transition: background-color 0.1s;
+
+    &:checked {
+      background-color: var(--clr-accent-primary);
+    }
+  }
+}

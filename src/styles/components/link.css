@@ -1,0 +1,7 @@
+@import "../constants.css";
+
+a:hover,
+a:focus-visible {
+  color: var(--clr-secondary-300);
+  transition: color 0.2s;
+}

@@ -11,7 +11,7 @@
   &::after {
     content: "";
     position: absolute;
-    background-image: url("./public/agent.png");
+    background-image: url("../../../public/agent.png");
     background-size: contain;
     background-position: bottom -10rem right 9%;
     background-repeat: no-repeat;
@@ -31,7 +31,7 @@
 }
 
 .form-background {
-  background-image: url("./public/agent-background.png");
+  background-image: url("../../../public/agent-background.png");
   background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
